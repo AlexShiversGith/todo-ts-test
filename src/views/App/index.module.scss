@@ -1,0 +1,29 @@
+.article {
+    width: 600px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px 55px 30px;
+
+    &Title{
+        font-size: 40px;
+        margin-bottom: 0.3em;
+        text-align: center;
+    }
+
+    &Text{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .article{
+        width: 500px;
+    } 
+}
+
+@media (max-width: 576px) {
+    .article{
+        width: 320px;
+        padding: 20px 10px 30px;
+    }
+}
