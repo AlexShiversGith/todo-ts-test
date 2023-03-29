@@ -1,4 +1,4 @@
-import  { create, State, StateCreator } from "zustand";
+import create, { State, StateCreator } from "zustand";
 
 import { generateId } from "../helpers";
 
