@@ -8,10 +8,22 @@
         font-size: 40px;
         margin-bottom: 0.3em;
         text-align: center;
+        overflow: hidden;
+        max-width: 500px;
     }
 
     &Text{
         text-align: center;
+        padding-bottom: 10px;
+    }
+
+    &Button{
+        font: 1rem/1em, 'Roboto', sans-serif;
+        padding: 5px 10px;
+        border-radius: 7px;
+        border: none;
+        background-color: #dbe2ef;
+        align-items: end;
     }
 }
 

@@ -71,9 +71,14 @@ export const App: React.FC = () => {
                     />
                 ))}
             </section>
-            <button
-                onClick={() => setIsFiltered(tasks)}
-            >Reset filter</button>
+            {tasks.length == 0 ? (
+                <></>
+            ) : (
+                <button
+                    className={styles.articleButton}
+                    onClick={() => setIsFiltered(tasks)}
+                >Reset filter</button>
+            )}
             </div>
         </article>
     );

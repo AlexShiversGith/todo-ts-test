@@ -93,3 +93,14 @@
                 }
         }
 }
+
+@media (max-width: 576px) {
+    .inputTask{
+        grid-template-columns: 30px 1fr 30px 30px;
+        gap: 5px;
+
+        &Label{
+            padding: 8px 5px;
+        }
+    }
+}
