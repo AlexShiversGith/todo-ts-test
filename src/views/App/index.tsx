@@ -21,7 +21,6 @@ export const App: React.FC = () => {
         state.removeTask,
         state.deleteTag,
     ])
-    //console.log(tasks)
 
     useEffect(() => {
         setIsFiltered(tasks)
